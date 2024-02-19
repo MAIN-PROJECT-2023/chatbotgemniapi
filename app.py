@@ -8,7 +8,7 @@ import google.generativeai as genai
 load_dotenv()
 
 # Set up the API key
-genai.configure(api_key=os.getenv("AIzaSyDTRsHqUASYS5jbyZmzjb-5GcolDstVK4A"))
+genai.configure(api_key=os.getenv("API_KEY"))
 
 # Set up the model configuration and safety settings
 generation_config = {
